@@ -1,0 +1,58 @@
+* {
+   font-family: Bradley Hand, cursive;
+
+}
+
+.box-container {
+   width: 700px;
+   height: 500px;
+   background-color: rgba(255, 255, 255, 0.062);
+   border: 3px solid black;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box {
+   background-color: white;
+   width: 200px;
+   height: 200px;
+   border: 2px solid black;
+}
+
+.code-container {
+   color: white;
+   background: rgb(131, 58, 180);
+   background: linear-gradient(317deg, rgba(131, 58, 180, 0.5) 0%, rgba(253, 29, 29, 0.5) 50%, rgba(252, 176, 69, 0.5) 100%);
+   border: 3px solid black;
+   border-radius: 10px;
+   width: 1170px;
+   height: 300px;
+}
+
+#btnCopy {
+   border: none;
+   border-radius: 15px;
+   background-color: blueviolet;
+   width: 150px;
+   height: 40px;
+}
+
+.accordion-item {
+   border: none;
+   background-color: rgba(253, 29, 29, 0);
+}
+
+
+
+.accordion-body {
+   background: rgb(63, 94, 251);
+   background: radial-gradient(circle, rgba(52, 83, 240, 0.5) 0%, rgba(224, 39, 76, 0.5) 100%);
+   border-radius: 25px;
+}
+
+body {
+   background: rgb(63, 94, 251);
+   background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}

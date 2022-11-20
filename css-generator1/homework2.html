@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/homework2.css">
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background: url(pict1.gif); background-size: cover; border-radius: 40px; color: rgb(255, 255, 255);">
+                                Size
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="range-container">
+                                    <label for="rangeWidth" class="form-label">Width(px)</label>
+                                    <input min="100" max="400" type="range" class="form-range" id="rangeWidth">
+                                    <input min="100" max="400" type="number" class="form-control" id="widthText">
+                                </div>
+                                <div class="range-container">
+                                    <label for="rangeHeight" class="form-label">Height(px)</label>
+                                    <input min="100" max="400" type="range" class="form-range" id="rangeHeight">
+                                    <input min="100" max="400" type="number" class="form-control" id="heightText">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background: url(pict1.gif); background-size: cover; border-radius: 40px; color: rgb(255, 255, 255);">
+                                Border-Radius
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <label for="TopLeft" class="form-label">TopLeft</label>
+                                <input min="0" max="200" type="range" class="form-range" id="TopLeft">
+                                <input min="0" max="200" type="number" class="form-control" id="TopLeftText">
+
+                                <label for="TopRight" class="form-label">TopRight</label>
+                                <input min="0" max="200" type="range" class="form-range" id="TopRight">
+                                <input min="0" max="200" type="number" class="form-control" id="TopRightText">
+
+                                <label for="BottomLeft" class="form-label">BottomLeft</label>
+                                <input min="0" max="200" type="range" class="form-range" id="BottomLeft">
+                                <input min="0" max="200" type="number" class="form-control" id="BottomLeftText">
+
+                                <label for="BottomRight" class="form-label">BottomRight</label>
+                                <input min="0" max="200" type="range" class="form-range" id="BottomRight">
+                                <input min="0" max="200" type="number" class="form-control" id="BottomRightText">
+
+                                <label for="Size" class="form-label">Size</label>
+                                <input min="1" max="10" type="range" class="form-range" id="Size">
+                                <input min="1" max="10" type="number" class="form-control" id="SizeText">
+
+                                <label for="BorderColor" class="form-label">Border Color</label>
+                                <input type="color" class="form-control" id="BorderColor">
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background: url(pict1.gif); background-size: cover; border-radius: 40px;     color: rgb(255, 255, 255);">
+                                Box Shadow
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+
+                                <label for="Horizontal" class="form-label">Horizontal</label>
+                                <input min="0" max="20" type="range" class="form-range" id="Horizontal">
+                                <input min="0" max="20" type="number" class="form-control" id="HorizontalText">
+
+                                <label for="Vertical" class="form-label">Vertical</label>
+                                <input min="0" max="20" type="range" class="form-range" id="Vertical">
+                                <input min="0" max="20" type="number" class="form-control" id="VerticalText">
+
+                                <label for="Blur" class="form-label">Blur</label>
+                                <input min="0" max="20" type="range" class="form-range" id="Blur">
+                                <input min="0" max="20" type="number" class="form-control" id="BlurText">
+
+                                <label for="Spread" class="form-label">Spread</label>
+                                <input min="0" max="20" type="range" class="form-range" id="Spread">
+                                <input min="0" max="20" type="number" class="form-control" id="SpreadText">
+
+                                <label for="Color" class="form-label">Color</label>
+                                <input type="color" class="form-control" id="Color">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="background: url(pict1.gif); background-size: cover; border-radius: 40px; color: rgb(255, 255, 255);">
+                                Background Color Box
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <label for="ColorBack" class="form-label">Background Color Box</label>
+                                <input type="color" class="form-control" id="ColorBack">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="background: url(pict1.gif); background-size: cover; border-radius: 40px; color: rgb(255, 255, 255);">
+                                Background Color Big Box
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <label for="ColorBox" class="form-label">Background Color Cube</label>
+                                <input type="color" class="form-control" id="ColorBox">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix" style="background: url(pict1.gif); background-size: cover; border-radius: 40px; color: rgb(255, 255, 255);">
+                                Scale
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="range-container">
+                                    <label for="Scale" class="form-label">Scale</label>
+                                    <input min="1" max="3" type="range" class="form-range" id="Scale">
+                                    <input min="1" max="3" type="number" class="form-control" id="ScaleText">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven" style="background: url(pict1.gif); background-size: cover; border-radius: 40px; color: rgb(255, 255, 255);">
+                                Rotate
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="range-container">
+                                    <label for="Rotate" class="form-label">Rotate</label>
+                                    <input min="0" max="360" type="range" class="form-range" id="Rotate">
+                                    <input min="0" max="360" type="number" class="form-control" id="RotateText">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-8">
+                <div class="box-container" id="boxy">
+                    <div id="box" class="box"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-11" id="port">
+                <div class="code-container">
+                    <p id="code"></p>
+                    <p id="code1"></p>
+                </div>
+                <div class="col col-1">
+                    <button id="btnCopy" type="button" class="btn btn-primary">Copy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
